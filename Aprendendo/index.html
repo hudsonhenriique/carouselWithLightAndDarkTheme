@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/fe4e343c3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Carrosel HTML|CSS|JS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dark and Light Mode</h1>
+      <input type="checkbox" name="change-theme" id="change-theme" />
+      <label for="change-theme">
+        <i class="fa-solid fa-moon fa-xl"></i>
+        <i class="fa-solid fa-sun fa-xl"></i>
+      </label>
+    </header>
+    <div class="content">
+      <div class="slides">
+        <input type="radio" name="slide" id="slide1" checked />
+        <input type="radio" name="slide" id="slide2" />
+        <input type="radio" name="slide" id="slide3" />
+        <input type="radio" name="slide" id="slide4" />
+        <input type="radio" name="slide" id="slide5" />
+        <div class="slide s1">
+          <img src="./img/1.jpg" alt="paisagem com muitas arvores verdes" />
+        </div>
+        <div class="slide">
+          <img
+            src="./img/2.jpg"
+            alt="paisagem com uma mesa de cadeirae um lago ao fundo"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="./img/3.jpg"
+            alt="paisagem de um lado verde e montanha oa fundo"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="./img/4.jpg"
+            alt="paisamge de uma praia com o mar azul e céu azul"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="./img/5.jpg"
+            alt="paisagem de um vale com floresta em baixo e montanha ao fundo"
+          />
+        </div>
+        <div class="navigation">
+          <label class="bar" for="slide1"></label>
+          <label class="bar" for="slide2"></label>
+          <label class="bar" for="slide3"></label>
+          <label class="bar" for="slide4"></label>
+          <label class="bar" for="slide5"></label>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
